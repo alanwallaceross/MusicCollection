@@ -42,9 +42,10 @@ public class MusicTrack {
         this.trackRunningTime = trackRunningTime;
     }
 
-    public void printDetailsOfTrack(){
+    public String printDetailsOfTrack(){
         System.out.println("Track name: " + this.getTrackName());
         System.out.println("Artist name: " + this.getArtistName());
         System.out.println("Running time: " + this.getTrackRunningTime());
+        return "Track name: " + this.getTrackName() + "Artist name: " + this.getArtistName() + "Running time: " + this.getTrackRunningTime();
     }
 }

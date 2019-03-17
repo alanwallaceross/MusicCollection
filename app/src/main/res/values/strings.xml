@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="trackName">Track name</string>
+    <string name="trackArtist">Track artist</string>
+    <string name="trackRunningTime">Track running time</string>
+    <string name="addButton">Add MusicTrack</string>
 </resources>
